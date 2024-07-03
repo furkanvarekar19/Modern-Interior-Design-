@@ -1,7 +1,12 @@
 import React from 'react'
-import '../style/header.css'
+import '../style/header.css';
+import { useNavigate } from 'react-router-dom'
+
 
 function Header() {
+   const navigate = useNavigate();
+
+
   return (
     <div className='header'>
        <nav className='main_nav'>
@@ -11,17 +16,17 @@ function Header() {
         <div className="navbar">
              <div className='unorder'>
                <ul>
-                <li> <a href="#">Home</a></li>
-                <li> <a href="#">Shop</a></li>
-                <li> <a href="#">About us</a></li>
-                <li> <a href="#">Services</a></li>
-                <li> <a href="#">Blog</a></li>
-                <li> <a href="#">Contact us</a></li>
+                <li> <a href="#" onClick={()=> navigate('/')} >Home</a></li>
+                <li> <a href="#" onClick={()=> navigate('/shop')} >Shop</a></li>
+                <li> <a href="#"onClick={()=> navigate('/about')} >About</a></li>
+                <li> <a href="#" onClick={()=> navigate('/services')} >Services</a></li> 
+                <li> <a href="#" onClick={()=> navigate('/blog')} >Blog</a></li>
+                <li> <a href="#" onClick={()=> navigate('/contact')} >Contact</a></li>
                </ul>
              </div>
              <div className="shop">
-             <i class="fa-regular fa-user"></i>
-             <i class="fa-solid fa-cart-shopping"></i>
+             <i className="fa-regular fa-user"></i>
+             <i className="fa-solid fa-cart-shopping"></i>
              </div>
         </div>
        </nav>

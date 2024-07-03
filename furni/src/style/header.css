@@ -18,20 +18,28 @@
 }
 .unorder ul{
     display: flex;
+    gap: 33px;
+
 }
+
 a{
     text-decoration: none;
     color: #bcbbbb;
     /* padding-right: 35px; */
     font-size: 18px;
-    /* position: relative;
-    transition: all 0.5s; */
+    /* /* position: relative; */
+    transition: all 0.5s;  
+}
+a:hover{
+    color: #fff;
+   
 }
 
 li{
     list-style-type: none;
-    padding-right: 35px;  
+    padding-right: 25px;  
 }
+
 .logo{
     /* border: 1px solid #000; */
     width: 300px;
@@ -42,17 +50,20 @@ li{
     color: #fff;
 }
 .shop{
-    margin-right: 25px;
+    /* margin-right: 25px; */
+    /* border: 1px solid #000; */
+    width: 110px;
+    margin-left: 20px;
 }
 .shop .fa-user{
     color: #fff;
-    font-size: 27px;
+    font-size: 21px;
     cursor: pointer;
 
 }
 .shop .fa-cart-shopping{
     color: #fff;
-    font-size: 26px;
+    font-size: 21px;
     cursor: pointer;
     margin-left: 28px;
    

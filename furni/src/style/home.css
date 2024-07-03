@@ -1,0 +1,124 @@
+.flex{
+    height: 550px;
+    width: 100%;
+    background-color:#3b5d50;
+    display: flex;
+    justify-content: space-evenly;
+}
+.home1{
+    height: 500px;
+    width: 40%;
+    /* border: 1px solid #000; */
+    text-align: center;
+
+}
+.Modern{
+    margin-top: 60px;
+    /* line-height: 60px; */
+}
+
+.Modern h1{
+    color: #fff;
+    font-size: 55px;
+    letter-spacing: 3px;
+}
+.Modern p{
+    margin-top: 25px;
+    color: #fff;
+    line-height: 30px;
+    letter-spacing: 1px;
+    padding: 8px 18px;
+
+}
+.shops{
+    margin-top: 15px;
+    margin-right: 15px;
+    height: 50px;
+    width: 140px;
+    background-color: #f9bf29;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+   
+}
+.explore{
+    height: 50px;
+    width: 140px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #7b7b7b;
+    transition: all 0.5s;
+    font-weight: 600;
+    font-size: 17px;
+    letter-spacing: 1px;
+  
+}
+.explore:hover{
+    border: 2px solid #fff;
+}
+
+.home2{
+    height: 500px;
+    width: 53%;
+    /* border: 1px solid #000; */
+}
+.home2 img{
+    height: 550px;
+    /* border: 1px solid #000; */
+}
+
+
+
+  /* responsive part */
+
+
+  @media screen and (min-width: 767px) and (max-width: 1023px){
+    .flex{
+        flex-direction: column;
+    }
+    .home1{
+        height: 500px;
+        width: 90%;
+        text-align: center;
+    
+    }
+    .home2{
+        height: 500px;
+        width: 90%;
+        overflow: hidden;
+        /* border: 1px solid #000; */
+    }
+    .home2 img{
+        height: 550px;
+    }
+  }
+
+  /* mobile screen */
+  @media only screen and (max-width: 500px) {
+    .flex{
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+   
+    .home1{
+        width: 100%;
+        text-align: center;
+        overflow: hidden;
+    }
+    .home2{
+        width: 100%;
+        overflow: hidden;
+        /* border: 1px solid #000; */
+    }
+    .home2 img{
+        height: 350px;
+    }
+   
+  }
