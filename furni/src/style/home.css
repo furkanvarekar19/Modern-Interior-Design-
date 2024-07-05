@@ -1,626 +1,851 @@
-.home{
-    background-color: #eff2f1;
+.home {
+  background-color: #eff2f1;
 }
-.flex{
-    width: 100%;
-    background-color:#3b5d50;
-    display: flex;
-    justify-content: space-evenly;
+.flex {
+  width: 100%;
+  background-color: #3b5d50;
+  display: flex;
+  justify-content: space-evenly;
 }
-.home1{
-    width: 40%;
-    /* border: 1px solid #000; */
-    text-align: center;
+.home1 {
+  width: 40%;
+  /* border: 1px solid #000; */
+  text-align: center;
 }
-.Modern{
-    margin-top: 60px;
-}
-
-.Modern h1{
-    color: #fff;
-    font-size: 55px;
-    letter-spacing: 3px;
-}
-.Modern p{
-    margin-top: 25px;
-    color: #fff;
-    line-height: 30px;
-    letter-spacing: 1px;
-    padding: 8px 18px;
-
-}
-.shops{
-    margin-top: 15px;
-    margin-right: 15px;
-    height: 50px;
-    width: 140px;
-    background-color: #f9bf29;
-    border: none;
-    outline: none;
-    border-radius: 25px;
-    font-weight: 600;
-    font-size: 16px;
-    letter-spacing: 1px;
-   
-}
-.explore{
-    height: 50px;
-    width: 140px;
-    border: none;
-    outline: none;
-    border-radius: 25px;
-    background-color: transparent;
-    color: #fff;
-    border: 2px solid #7b7b7b;
-    transition: all 0.5s;
-    font-weight: 600;
-    font-size: 17px;
-    letter-spacing: 1px;
-  
-}
-.explore:hover{
-    border: 2px solid #fff;
+.Modern {
+  margin-top: 60px;
 }
 
-.home2{
-    width: 53%;
-  
+.Modern h1 {
+  color: #fff;
+  font-size: 55px;
+  letter-spacing: 3px;
+}
+.Modern p {
+  margin-top: 25px;
+  color: #fff;
+  line-height: 30px;
+  letter-spacing: 1px;
+  padding: 8px 18px;
+}
+.shops {
+  margin-top: 15px;
+  margin-right: 15px;
+  height: 50px;
+  width: 140px;
+  background-color: #f9bf29;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.explore {
+  height: 50px;
+  width: 140px;
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #7b7b7b;
+  transition: all 0.5s;
+  font-weight: 600;
+  font-size: 17px;
+  letter-spacing: 1px;
+}
+.explore:hover {
+  border: 2px solid #fff;
 }
 
-.Crafted-material{
- display: flex;
- justify-content: space-evenly;
- align-items: center;
- margin-top: 30px;
+.home2 {
+  width: 53%;
 }
 
-.Crafted-one{
-    width: 30%;
-    /* border: 1px solid #000; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
-}
-.Crafted-one h2{
-    font-size: 40px;
- letter-spacing: 1.5px;
- font-weight: 500;
-
-}
-.Crafted-one p{
-    font-family: 'Times New Roman', Times, serif;
-    letter-spacing: 1px;
-    padding: 12px 15px;
-    font-weight: 500;
-    color: #7b7b7b;
-    line-height: 30px;
-}
-.Crafted-one button{
-    height: 45px;
-    width: 120px;
-    background: #000;
-    letter-spacing: 1px;
-    color: #fff;
-    font-size: 20px;
-    border: none;
-    outline: none;
-    border-radius: 18px;
+.Crafted-material {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 30px;
 }
 
-
-.Crafted-two{
-    width: 60%;
-    /* border: 1px solid #000; */
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-  
+.Crafted-one {
+  width: 30%;
+  /* border: 1px solid #000; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
 }
-.chair_one{
-    width: 30%;
-    /* border: 1px solid #000; */
-    text-align: center;  
+.Crafted-one h2 {
+  font-size: 40px;
+  letter-spacing: 1.5px;
+  font-weight: 500;
 }
-
-.chair_one img{
-    margin-top: 20px;
-    height: 300px;
-    width: 100%;
-    object-fit: cover;
-    transition: all .5s;
+.Crafted-one p {
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 1px;
+  padding: 12px 15px;
+  font-weight: 500;
+  color: #7b7b7b;
+  line-height: 30px;
 }
-.chair_one:hover img{
-    transform: scale(1.1);
-}
-.chair_one p{
-    font-weight: 600;
-    font-size: 19px;
-    letter-spacing: 1px;
-    text-align: center;
-    margin-top: 8px;
-}
-.chair_one span{
-    font-weight: 800;
-    font-size: 19px;
-   text-align: center;  
+.Crafted-one button {
+  height: 45px;
+  width: 120px;
+  background: #000;
+  letter-spacing: 1px;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  border-radius: 18px;
 }
 
-.chair_two{
-    width: 30%;
-    text-align: center;
+.Crafted-two {
+  width: 60%;
+  /* border: 1px solid #000; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.chair_one {
+  width: 30%;
+  /* border: 1px solid #000; */
+  text-align: center;
 }
 
-.chair_two img{
-    margin-top: 20px;
-    height: 300px;
-    width: 100%;
-    object-fit: cover;
-    transition: all .5s;
+.chair_one img {
+  margin-top: 20px;
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.5s;
 }
-.chair_two:hover img{
-    transform: scale(1.1);
+.chair_one:hover img {
+  transform: scale(1.1);
 }
-.chair_two p{
-    font-weight: 600;
-    font-size: 19px;
-    letter-spacing: 1px;
-    text-align: center;
-    margin-top: 8px;
+.chair_one p {
+  font-weight: 600;
+  font-size: 19px;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 8px;
 }
-.chair_two span{
-    font-weight: 800;
-    font-size: 19px;
-   text-align: center;
-    
-}
-
-.chair_three{
-    width: 30%;
-    /* border: 1px solid #000; */
-    text-align: center;
+.chair_one span {
+  font-weight: 800;
+  font-size: 19px;
+  text-align: center;
 }
 
-.chair_three img{
-    margin-top: 20px;
-    height: 320px;
-    width: 100%;
-    object-fit: cover;
-    transition: all .5s;
+.chair_two {
+  width: 30%;
+  text-align: center;
 }
-.chair_three:hover img{
-    transform: scale(1.1);
+
+.chair_two img {
+  margin-top: 20px;
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.5s;
 }
-.chair_three p{
-    font-weight: 600;
-    font-size: 19px;
-    letter-spacing: 1px;
-    text-align: center;
-    margin-top: 8px;
+.chair_two:hover img {
+  transform: scale(1.1);
 }
-.chair_three span{
-    font-weight: 800;
-    font-size: 19px;
-   text-align: center;
-    
+.chair_two p {
+  font-weight: 600;
+  font-size: 19px;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 8px;
 }
-.Choose-Us_main{
-    width: 100%;
-    margin-top: 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  
+.chair_two span {
+  font-weight: 800;
+  font-size: 19px;
+  text-align: center;
 }
-.dapibus{
-    height: 500px;
-    width: 55%;
-    /* border: 1px solid #000; */
-    /* margin-left: 20px; */
+
+.chair_three {
+  width: 30%;
+  /* border: 1px solid #000; */
+  text-align: center;
+}
+
+.chair_three img {
+  margin-top: 20px;
+  height: 320px;
+  width: 100%;
+  object-fit: cover;
+  transition: all 0.5s;
+}
+.chair_three:hover img {
+  transform: scale(1.1);
+}
+.chair_three p {
+  font-weight: 600;
+  font-size: 19px;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 8px;
+}
+.chair_three span {
+  font-weight: 800;
+  font-size: 19px;
+  text-align: center;
+}
+.Choose-Us_main {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dapibus {
+  height: 500px;
+  width: 55%;
+  /* border: 1px solid #000; */
+  /* margin-left: 20px; */
   margin: 30px;
   padding: 20px;
 }
-.dapibus_img{
-    width: 45%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* border: 1px solid #000; */
+.dapibus_img {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid #000; */
 }
-.dapibus_img img{
-    border-radius: 20px;
-    height: 600px;
-    width: 80%;
-    object-fit: cover;
+.dapibus_img img {
+  border-radius: 20px;
+  height: 600px;
+  width: 80%;
+  object-fit: cover;
 }
 
-.text3 h2{
-    font-weight: 500;
-    font-size: 30px;
-    letter-spacing: 1px;
-    font-family: Arial, Helvetica, sans-serif;
+.text3 h2 {
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.text3 p{
-    margin-top: 15px;
+.text3 p {
+  margin-top: 15px;
   font-size: 15px;
- letter-spacing: 2px;
-font-weight: 500;
-color: rgb(78, 77, 77);
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: rgb(78, 77, 77);
 }
-.Shipping_main{
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
- 
+.Shipping_main {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
-.Shipping{
-    height: 160px;
-    width: 45%;
-    /* border: 1px solid #000; */
-    line-height: 33px;
-    margin-bottom: 10px;
+.Shipping {
+  height: 160px;
+  width: 45%;
+  /* border: 1px solid #000; */
+  line-height: 33px;
+  margin-bottom: 10px;
 }
-.Shipping img{
-    height: 45px;
+.Shipping img {
+  height: 45px;
 }
-.Shipping p{
-    line-height: 21px;
-    font-size: 14px;
+.Shipping p {
+  line-height: 21px;
+  font-size: 14px;
 }
-.Shipping h4{
-    font-weight: 600;
-    letter-spacing: 1px;
+.Shipping h4 {
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+.EasyShop {
+  height: 160px;
+  width: 45%;
+  /* border: 1px solid #000; */
+}
+.EasyShop img {
+  height: 45px;
+}
+.EasyShop p {
+  line-height: 21px;
+  font-size: 14px;
+}
+.EasyShop h4 {
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+.Support {
+  height: 160px;
+  width: 45%;
+  /* border: 1px solid #000; */
+}
+.Support img {
+  height: 45px;
+}
+.Support p {
+  line-height: 21px;
+  font-size: 14px;
+}
+.Support h4 {
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+.Returns {
+  height: 160px;
+  width: 45%;
+  /* border: 1px solid #000; */
+}
+.Returns img {
+  height: 45px;
+}
+.Returns p {
+  line-height: 21px;
+  font-size: 14px;
+}
+.Returns h4 {
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+
+.MakeModern_main {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+.Design_img {
+  height: 650px;
+  width: 45%;
+  /* border: 1px solid #000; */
+  border-radius: 50%;
+  background-image: url(https://themewagon.github.io/furni/images/img-grid-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.circle {
+  position: absolute;
+  right: 0;
+  height: 200px;
+  width: 40%;
+  /* border: 1px solid #000; */
+}
+.circle img {
+  height: 100%;
+  width: 100%;
+  border-radius: 80px;
+}
+
+.Design_text {
+  height: 500px;
+  width: 45%;
+  /* border: 1px solid #000; */
+  padding: 30px;
+  line-height: 40px;
+}
+.Design_text h2 {
+  font-weight: 600;
+  font-size: 31px;
+  letter-spacing: 2px;
+}
+.Design_text p {
+  margin-top: 10px;
+  font-weight: 500;
+  line-height: 27px;
+  color: rgb(80, 79, 79);
+  letter-spacing: 1px;
+  font-size: 15px;
+}
+
+.Donec_main {
+  margin-top: 10px;
+  /* border: 1px solid #000; */
+  width: 83%;
+  height: 130px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.Donec_text p {
+  font-size: 15px;
+}
+.Design_text .btn4 {
+  cursor: pointer;
+  margin-top: 30px;
+  height: 47px;
+  border-radius: 12px;
+  width: 125px;
+  background: #000;
+  color: #fff;
+  font-size: 18px;
+  transition: all 0.5s;
+}
+#AeroChair_main {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  /* border: 1px solid #000; */
+}
+.AeroChair_one {
+  height: 150px;
+  width: 25%;
+  /* border: 1px solid #000; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 30px;
+  cursor: pointer;
+}
+.AeroChair_one img {
+  height: 120px;
+}
+.AeroChair_one p {
+  line-height: 24px;
+}
+.AeroChair_one a {
+  color: #000;
+  font-size: 17px;
+}
+
+.AeroChair_two {
+  height: 150px;
+  width: 25%;
+  /* border: 1px solid #000; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 30px;
+  cursor: pointer;
+}
+.AeroChair_two img {
+  height: 120px;
+}
+.AeroChair_two p {
+  line-height: 24px;
+}
+.AeroChair_two a {
+  color: #000;
+  font-size: 17px;
+}
+
+.AeroChair_three {
+  height: 150px;
+  width: 25%;
+  /* border: 1px solid #000; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 30px;
+  cursor: pointer;
+}
+.AeroChair_three img {
+  height: 120px;
+}
+.AeroChair_three p {
+  line-height: 24px;
+}
+.AeroChair_three a {
+  color: #000;
+  font-size: 17px;
+}
+.ViewAllpost {
+  margin-top: 50px;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.ViewAllpost h2 {
+  font-size: 33px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+}
+.ViewAllpost a {
+  color: #000;
+  text-decoration: underline;
+  letter-spacing: 1px;
+}
+#homeideas_main {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.furnitureidea-one {
+  height: 410px;
+  width: 28%;
+  /* border: 1px solid #000; */
+}
+.furnitureidea-one img {
+  height: 290px;
+  width: 100%;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+.furnitureidea-one:hover img {
+  /* filter: brightness(80%); */
+  filter: opacity(0.6);
+}
+.furnitureidea-one h3 {
+  letter-spacing: 0.5px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.furnitureidea-one p {
+  margin-top: 10px;
+}
+
+.furnitureidea-two {
+  height: 410px;
+  width: 28%;
+  /* border: 1px solid #000; */
+}
+.furnitureidea-two img {
+  height: 290px;
+  width: 100%;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+.furnitureidea-two:hover img {
+  /* filter: brightness(80%); */
+  filter: opacity(0.6);
+}
+.furnitureidea-two h3 {
+  letter-spacing: 0.5px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.furnitureidea-two p {
+  margin-top: 10px;
+}
+
+.furnitureidea-three {
+  height: 410px;
+  width: 28%;
+  /* border: 1px solid #000; */
+}
+
+.furnitureidea-three img {
+  height: 290px;
+  width: 100%;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+.furnitureidea-three:hover img {
+  /* filter: brightness(80%); */
+  filter: opacity(0.6);
+}
+.furnitureidea-three h3 {
+  letter-spacing: 0.5px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.furnitureidea-three p {
+  margin-top: 10px;
+}
+
+/* responsive part */
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .flex {
+    flex-direction: column;
+    /* height: 650px; */
+  }
+  .home1 {
+    /* height: 500px; */
+    width: 90%;
+    text-align: center;
+  }
+  .Modern h1 {
+    font-size: 40px;
+  }
+  .Modern p {
     font-size: 18px;
-}
-.EasyShop{
-    height: 160px;
-    width: 45%;
+  }
+  .home2 {
+    /* height: 500px; */
+    width: 90%;
+    overflow: hidden;
     /* border: 1px solid #000; */
-}
-.EasyShop img{
-    height: 45px;
-;
-}
-.EasyShop p{
-    line-height: 21px;
-    font-size: 14px;
-}
-.EasyShop h4{
-    font-weight: 600;
-    letter-spacing: 1px;
-    font-size: 18px;
-}
-.Support{
-    height: 160px;
-    width: 45%;
-    /* border: 1px solid #000; */
-}
-.Support img{
-    height: 45px;
+  }
 
-}
-.Support p{
-    line-height: 21px;
-    font-size: 14px;
-}
-.Support h4{
-    font-weight: 600;
-    letter-spacing: 1px;
-    font-size: 18px;
-}
-.Returns{
-    height: 160px;
-    width: 45%;
-    /* border: 1px solid #000; */
-}
-.Returns img{
-    height: 45px;
-
-}
-.Returns p{
-    line-height: 21px;
-    font-size: 14px;
-}
-.Returns h4{
-    font-weight: 600;
-    letter-spacing: 1px;
-    font-size: 18px;
-}
-
-.MakeModern_main{
-    margin-top: 60px;
-    display: flex;
-    justify-content: space-around;
-}
-.Design_img{
-    height: 650px;
-    width: 45%;
-    /* border: 1px solid #000; */
-    border-radius: 50%;
-    background-image: url(https://themewagon.github.io/furni/images/img-grid-1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    
-}
-.circle{
-    position: absolute;
-   right: 0;
-    height: 200px;
-    width: 40%;
-    /* border: 1px solid #000; */
- 
-}
-.circle img{
-    height: 100%;
-    width: 100%;
-    border-radius: 80px;
-}
-
-.Design_text{
-    height: 500px;
-    width: 45%;
-    /* border: 1px solid #000; */
-    padding: 30px;
-    line-height: 40px;
-}
-.Design_text h2{
-    font-weight: 600;
-    font-size: 31px;
-    letter-spacing: 2px;
-}
-.Design_text p{
-    margin-top: 10px;
-    font-weight: 500;
-    line-height: 27px;
-    color: rgb(80, 79, 79);
-    letter-spacing: 1px;
-    font-size: 15px;
-}
-
-.Donec_main{
-    margin-top: 10px;
-    /* border: 1px solid #000; */
-    width: 83%;
-    height: 130px;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-.Donec_text p{
-    font-size: 15px;
-}
-.Design_text .btn4{
-    cursor: pointer;
-    margin-top: 30px;
-    height: 47px;
-    border-radius: 12px;
-    width: 125px;
-    background: #000;
-    color: #fff;
-    font-size: 18px;
-    transition: all 0.5s;
-}
-
-
-
-
-
-  /* responsive part */
-
-
-  @media screen and (min-width: 767px) and (max-width: 1023px){
-    .flex{
-        flex-direction: column;
-        /* height: 650px; */
-    }
-    .home1{
-        /* height: 500px; */
-        width: 90%;
-        text-align: center;
-    
-    }
-    .Modern h1{
-        font-size: 40px;
-    }
-    .Modern p{
-       font-size: 18px;
-    }
-    .home2{
-        /* height: 500px; */
-        width: 90%;
-        overflow: hidden;
-        /* border: 1px solid #000; */
-    }
-    
-    .Crafted-material{
-        flex-direction: column;
-        
-    }
-    .Crafted-one{
-        width: 90%;
-    }
-    .Crafted-two{
-        width: 90%;
-    }
-    .Choose-Us_main{
-     flex-direction: column;
-    }
-    .dapibus{
-        width: 90%;
-    }
-    .dapibus_img{
-    display: none;
-    }
-  .MakeModern_main{
+  .Crafted-material {
     flex-direction: column;
   }
-  .Design_img{
-   display: none;
-  }
- .Design_text{
+  .Crafted-one {
     width: 90%;
- }
- .Design_text h2{
+  }
+  .Crafted-two {
+    width: 90%;
+  }
+  .Choose-Us_main {
+    flex-direction: column;
+  }
+  .dapibus {
+    width: 90%;
+  }
+  .dapibus_img {
+    display: none;
+  }
+  .MakeModern_main {
+    flex-direction: column;
+  }
+  .Design_img {
+    display: none;
+  }
+  .Design_text {
+    width: 90%;
+  }
+  .Design_text h2 {
     font-size: 25px;
- }
- .Design_text p{
+  }
+  .Design_text p {
     font-size: 14px;
- }
- .Donec_main {
+  }
+  .Donec_main {
     width: 100%;
     height: 130px;
     display: flex;
     justify-content: space-around;
     /* flex-wrap: wrap; */
     flex-direction: column;
+  }
+
+  #AeroChair_main {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+  }
+  .AeroChair_one {
+    width: 40%;
+  }
+  .AeroChair_two {
+    width: 40%;
+  }
+  .AeroChair_three {
+    width: 40%;
+  }
 }
 
+/* mobile screen */
+@media only screen and (max-width: 500px) {
+  .flex {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
   }
 
-  /* mobile screen */
-  @media only screen and (max-width: 500px) {
-    .flex{
-        flex-direction: column;
-        width: 100%;
-        height: 100%;
-    }
-   
-    .home1{
-        width: 100%;
-       
-    }
-    .Modern h1{
-        font-size: 21px;
-     
-    }
-    .Modern p{
-       font-size: 12px;
-       line-height: 20px;
-       text-align: start;
-    }
-    .home2{
-        width: 100%;
-        overflow: hidden;
-        /* border: 1px solid #000; */
-    }
-    .home2 img{
-        height: 300px;
-    }
+  .home1 {
+    width: 100%;
+  }
+  .Modern h1 {
+    font-size: 21px;
+  }
+  .Modern p {
+    font-size: 12px;
+    line-height: 20px;
+    text-align: start;
+  }
+  .home2 {
+    width: 100%;
+    overflow: hidden;
+    /* border: 1px solid #000; */
+  }
+  .home2 img {
+    height: 300px;
+  }
 
-    .Crafted-material{
-        flex-direction: column;
-        
-    }
-    .Crafted-one h2{
-        font-size: 25px;
-    }
-    .Crafted-one p{
-        font-size: 14px;
-    }
-
-    .Crafted-one button{
-        height: 35px;
-        width: 100px;
-        font-size: 16px;
-    }
-    .Crafted-one{
-        width: 100%;
-        text-align: center;
-    }
-    .Crafted-two{
-        width: 100%;
-        flex-direction: column;
-    }
-    .chair_one , .chair_two , .chair_three{
-        width: 50%;
-    }
-    .chair_one img{
-        height: 200px;
-    }
-    .chair_two img{
-        height: 200px;
-    }
-    .chair_three img{
-        height: 200px;
-    }
-
-
-    .chair_one p{
+  .Crafted-material {
+    flex-direction: column;
+  }
+  .Crafted-one h2 {
+    font-size: 25px;
+  }
+  .Crafted-one p {
     font-size: 14px;
-    } 
-    .chair_one span{
-        font-size: 14px;
-    }
-    .chair_two p{
-        font-size: 14px;
-      } 
-      .chair_two span{
-          font-size: 14px;
-       }
-     .chair_three p{
-       font-size: 14px;
-        } 
-      .chair_three span{
-       font-size: 14px;
-       }
-       .dapibus_img{
-        display: none;
-        }
-        .dapibus{
-            width: 95%;
-        }
-        .Shipping_main{
-           flex-direction: column;
-           text-align: center;
-        }
-        .Shipping{
-            width: 100%;
-        }
-        .EasyShop{
-            width: 100%;
-        }
-        .Support{
-            width: 100%;
-        }
-        .Returns{
-            width: 100%;
-        }
-        .text3{
-            text-align: center;
-        }
-        .text3 h2{
-            font-size: 20px;
-        }
-        .text3 p{
-            font-size: 13px;
-        }
-      
-        .Design_img{
-            display: none;
-           }
-          .Design_text{
-            margin-top: 180px;
-             width: 100%;
-             text-align: center;
-          }
-          .Design_text h2{
-             font-size: 22px;
-          }
-          .Design_text p{
-             font-size: 13px;
-             line-height: 20px;
-             letter-spacing: 0px;
-             text-align: center;
-          }
-          .Donec_main {
-             width: 100%;
-             height: 130px;
-             display: flex;
-             justify-content: space-around;
-             /* flex-wrap: wrap; */
-             flex-direction: column;
-         }
   }
+
+  .Crafted-one button {
+    height: 35px;
+    width: 100px;
+    font-size: 16px;
+  }
+  .Crafted-one {
+    width: 100%;
+    text-align: center;
+  }
+  .Crafted-two {
+    width: 100%;
+    flex-direction: column;
+  }
+  .chair_one,
+  .chair_two,
+  .chair_three {
+    width: 50%;
+  }
+  .chair_one img {
+    height: 200px;
+  }
+  .chair_two img {
+    height: 200px;
+  }
+  .chair_three img {
+    height: 200px;
+  }
+
+  .chair_one p {
+    font-size: 14px;
+  }
+  .chair_one span {
+    font-size: 14px;
+  }
+  .chair_two p {
+    font-size: 14px;
+  }
+  .chair_two span {
+    font-size: 14px;
+  }
+  .chair_three p {
+    font-size: 14px;
+  }
+  .chair_three span {
+    font-size: 14px;
+  }
+  .dapibus_img {
+    display: none;
+  }
+  .dapibus {
+    width: 95%;
+  }
+  .Shipping_main {
+    flex-direction: column;
+    text-align: center;
+  }
+  .Shipping {
+    width: 100%;
+  }
+  .EasyShop {
+    width: 100%;
+  }
+  .Support {
+    width: 100%;
+  }
+  .Returns {
+    width: 100%;
+  }
+  .text3 {
+    text-align: center;
+  }
+  .text3 h2 {
+    font-size: 20px;
+  }
+  .text3 p {
+    font-size: 13px;
+  }
+
+  .Design_img {
+    display: none;
+  }
+  .Design_text {
+    margin-top: 180px;
+    width: 100%;
+    text-align: center;
+  }
+  .Design_text h2 {
+    font-size: 22px;
+  }
+  .Design_text p {
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .Donec_main {
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+  }
+  #AeroChair_main {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+  }
+  .AeroChair_one {
+    width: 95%;
+  }
+  .AeroChair_two {
+    width: 95%;
+  }
+  .AeroChair_three {
+    width: 95%;
+  }
+  .ViewAllpost {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .ViewAllpost h2 {
+    font-size: 25px;
+  }
+
+  .ViewAllpost a {
+    font-size: 16px;
+  }
+
+  #homeideas_main {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .furnitureidea-one {
+    height: 410px;
+    width: 70%;
+    /* border: 1px solid #000; */
+  }
+  .furnitureidea-one img {
+    height: 230px;
+  }
+  .furnitureidea-two {
+    height: 410px;
+    width: 70%;
+    /* border: 1px solid #000; */
+  }
+  .furnitureidea-two img {
+    height: 230px;
+  }
+  .furnitureidea-three {
+    height: 410px;
+    width: 70%;
+    /* border: 1px solid #000; */
+  }
+  .furnitureidea-three img {
+    height: 230px;
+  }
+}

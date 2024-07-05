@@ -10,11 +10,12 @@ import Services from './component/Services';
 import Blog from './component/Blog';
 import Contact from './component/Contact';
 
+
  
 function App() {
   return (
     <div className="App">
-      {/* <Header/> */}
+      <Header/>
     
     <Routes>
      <Route path='/' element= {<Home/>} />

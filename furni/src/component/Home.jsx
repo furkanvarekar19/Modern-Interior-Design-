@@ -1,5 +1,7 @@
 import React from 'react'
 import '../style/home.css'
+import CarouselComponent from '../component/CarouselComponent '
+
 
 
 function Home() {
@@ -129,10 +131,70 @@ function Home() {
 
           </div>
 
+          
+          <div id="AeroChair_main">
+          <div className="AeroChair_one">
+            <img src="https://themewagon.github.io/furni/images/product-1.png" alt="img" />
+            <div>
+              <h4>Nordic Chair</h4>
+              <p>Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
 
+          <div className="AeroChair_two">
+          <img src="https://themewagon.github.io/furni/images/product-2.png" alt="img" />
+            <div>
+              <h4>Nordic Chair</h4>
+              <p>Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+
+          <div className="AeroChair_three">
+          <img src="https://themewagon.github.io/furni/images/product-3.png" alt="img" />
+            <div>
+              <h4>Nordic Chair</h4>
+              <p>Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio</p>
+              <a href="#">Read More</a>
+            </div>
+          </div>
+
+          </div>
+
+         <div>
+         <CarouselComponent/>
+         </div>
+
+     <div className='ViewAllpost'>
+      <h2>Recent Blog</h2>
+      <a href="#">View All post</a>
+     </div>
+
+
+      <div id="homeideas_main">
+      <div className="furnitureidea-one">
+       <img src="https://themewagon.github.io/furni/images/post-1.jpg" alt="furniture" />
+       <h3>First Time Home Owner Ideas</h3>
+       <p>by Kristin Watson on Dec 19, 2021</p>
+      </div>
+
+      <div className="furnitureidea-two">
+      <img src="https://themewagon.github.io/furni/images/post-2.jpg" alt="furniture" />
+       <h3>First Time Home Owner Ideas</h3>
+       <p>by Kristin Watson on Dec 19, 2021</p>
+      </div>
+
+      <div className="furnitureidea-three">
+      <img src="https://themewagon.github.io/furni/images/post-3.jpg" alt="furniture" />
+       <h3>First Time Home Owner Ideas</h3>
+       <p>by Kristin Watson on Dec 19, 2021</p>
+      </div>
+
+      </div>
 
     </div>
   )
 }
 
-export default Home
+export default Home;

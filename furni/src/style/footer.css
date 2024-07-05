@@ -1,0 +1,219 @@
+#footer_main {
+  background-color: #fff;
+  padding: 70px;
+}
+.footer_img {
+  height: 150px;
+  width: 100%;
+  text-align: end;
+}
+.footer_img img {
+  height: 320px;
+}
+.Subscribe {
+  width: 45%;
+  /* border: 1px solid #000; */
+}
+.inputs {
+  margin-top: 15px;
+}
+
+.inputs input {
+  text-align: center;
+  height: 50px;
+  width: 220px;
+  margin-left: 20px;
+  border: none;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  font-size: 18px;
+  border-radius: 12px;
+}
+.inputs button {
+  height: 50px;
+  width: 110px;
+  background-color: #3b5d50;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  margin-left: 20px;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+.inputs:hover button {
+  background-color: #377d61;
+}
+
+.heading h2 {
+  margin-top: 80px;
+  cursor: #377d61;
+  font-size: 33px;
+}
+.furni_main {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.para {
+  height: 160px;
+  width: 25%;
+  /* border: 1px solid #000; */
+  cursor: pointer;
+}
+.about_us h4 {
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 17px;
+  transition: all 0.5s;
+}
+.live_chat h4:hover {
+  color: silver;
+}
+.jobs h4:hover {
+  color: silver;
+}
+.nordic_chair h4:hover {
+  color: silver;
+}
+
+.para p {
+  /* color: aqua; */
+  line-height: 18px;
+  font-size: 15px;
+}
+.about_us h4:hover {
+  color: silver;
+}
+.about_us {
+  height: 200px;
+  width: 14%;
+  /* border: 1px solid #000; */
+  line-height: 40px;
+  cursor: pointer;
+}
+
+.live_chat {
+  height: 180px;
+  width: 14%;
+  /* border: 1px solid #000; */
+  line-height: 40px;
+  cursor: pointer;
+}
+.live_chat h4 {
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 17px;
+  transition: all 0.5s;
+}
+
+.jobs {
+  height: 200px;
+  width: 14%;
+  /* border: 1px solid #000; */
+  line-height: 40px;
+  cursor: pointer;
+}
+.jobs h4 {
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 17px;
+  transition: all 0.5s;
+}
+
+.nordic_chair {
+  height: 180px;
+  width: 14%;
+  line-height: 40px;
+  /* border: 1px solid #000; */
+  cursor: pointer;
+}
+.nordic_chair h4 {
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 17px;
+  transition: all 0.5s;
+}
+
+#icons i {
+  margin-left: 20px;
+  /* border: 1px solid #000; */
+  background-color: #dce5e4;
+  padding: 12px 15px;
+  font-size: 18px;
+  border-radius: 50%;
+  color: #377d61;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+#icons i:hover {
+  background-color: #13563b;
+  color: #fff;
+}
+
+/* responsive part */
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .furni_main {
+    display: none;
+  }
+  .Subscribe {
+    margin-top: 120px;
+    width: 100%;
+    /* border: 1px solid #000; */
+  }
+  #icons {
+    margin-top: 25px;
+  }
+}
+
+/* mobile screen */
+@media only screen and (max-width: 500px) {
+  .footer_img img {
+    height: 260px;
+  }
+  .Subscribe {
+    width: 100%;
+    margin-top: 100px;
+    /* border: 1px solid #000; */
+    text-align: start;
+  }
+  .inputs input {
+    width: 90%;
+    margin-top: 15px;
+  }
+  .inputs button {
+    margin-top: 20px;
+    background-color: #377d61;
+  }
+  .furni_main {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+  }
+  .para {
+    width: 90%;
+  }
+  .about_us {
+    width: 90%;
+  }
+  .live_chat {
+    width: 90%;
+  }
+  .jobs {
+    width: 90%;
+  }
+  .nordic_chair {
+    width: 90%;
+  }
+  #icons i {
+    margin-left: 12px;
+    /* border: 1px solid #000; */
+    background-color: #dce5e4;
+    padding: 10px 12px;
+    font-size: 14px;
+    border-radius: 50%;
+    color: #377d61;
+    transition: all 0.5s;
+  }
+}
