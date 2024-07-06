@@ -6,6 +6,8 @@
   background-color: #3b5d50;
   display: flex;
   justify-content: space-evenly;
+  /* align-items: center; */
+  padding: 20px;
 }
 .home1 {
   width: 40%;
@@ -60,7 +62,7 @@
 }
 
 .home2 {
-  width: 53%;
+  width: 52%;
 }
 
 .Crafted-material {
@@ -68,10 +70,11 @@
   justify-content: space-evenly;
   align-items: center;
   margin-top: 30px;
+  padding: 50px;
 }
 
 .Crafted-one {
-  width: 30%;
+  width: 40%;
   /* border: 1px solid #000; */
   display: flex;
   justify-content: center;
@@ -118,7 +121,7 @@
 
 .chair_one img {
   margin-top: 20px;
-  height: 300px;
+  height: 280px;
   width: 100%;
   object-fit: cover;
   transition: all 0.5s;
@@ -195,6 +198,7 @@
   font-size: 19px;
   text-align: center;
 }
+
 .Choose-Us_main {
   width: 100%;
   margin-top: 40px;
@@ -552,6 +556,19 @@
 .furnitureidea-three p {
   margin-top: 10px;
 }
+  /* shop component css */
+  .shopcom{
+    height: 330px;
+    background-color: #3b5d50;
+    color: #fff;
+    padding: 60px;
+  }
+  .shopcom h1{
+    font-size: 60px;
+    letter-spacing: 1px;
+  }
+
+
 
 /* responsive part */
 

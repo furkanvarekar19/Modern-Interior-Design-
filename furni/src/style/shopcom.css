@@ -1,0 +1,179 @@
+.Crafted-two {
+    width: 100%;
+    /* border: 1px solid #000; */
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+  }
+  .chair_one {
+    width: 21%;
+    /* height: 400px; */
+    /* border: 1px solid #000; */
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  .chair_one img {
+    margin-top: 20px;
+    height: 280px;
+    width: 100%;
+    /* object-fit: cover; */
+    transition: all 0.5s;
+  }
+  .chair_one:hover img {
+    transform: scale(1.05);
+  }
+  .chair_one p {
+    font-weight: 600;
+    font-size: 19px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 8px;
+  }
+  .chair_one span {
+    font-weight: 800;
+    font-size: 19px;
+    text-align: center;
+  }
+  
+  .chair_two {
+    width: 21%;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  .chair_two img {
+    margin-top: 20px;
+    height: 280px;
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.5s;
+  }
+  .chair_two:hover img {
+    transform: scale(1.05);
+
+  }
+  .chair_two p {
+    font-weight: 600;
+    font-size: 19px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 8px;
+  }
+  .chair_two span {
+    font-weight: 800;
+    font-size: 19px;
+    text-align: center;
+  }
+  
+  .chair_three {
+    width: 22%;
+    margin-bottom: 50px;
+    /* border: 1px solid #000; */
+    text-align: center;
+  }
+  
+  .chair_three img {
+    margin-top: 20px;
+    height: 280px;
+    width: 100%;
+    object-fit: cover;
+    transition: all 0.5s;
+  }
+  .chair_three:hover img {
+    transform: scale(1.05);
+
+  }
+  .chair_three p {
+    font-weight: 600;
+    font-size: 19px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 8px;
+  }
+  .chair_three span {
+    font-weight: 800;
+    font-size: 19px;
+    text-align: center;
+  }
+  .addtocard{
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    height: 40px;
+    width: 110px;
+    background-color: #000;
+    color: white;
+    font-size: 19px;
+    font-weight: 500;
+    font-family: serif;
+    letter-spacing: 1px;
+  }
+
+/* responsive part */
+          
+  @media screen and (min-width: 767px) and (max-width: 1023px) {
+    .Crafted-two {
+        width: 100%;
+        /* border: 1px solid #000; */
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 50px;
+    }
+    .chair_one {
+        width: 38%;
+        /* height: 400px; */
+        /* border: 1px solid #000; */
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .chair_one img {
+        margin-top: 20px;
+        height: 280px;
+        width: 100%;
+        object-fit: cover;
+        transition: all 0.5s;
+    }
+    .chair_two{
+        width: 38%;
+    }
+    .chair_three{
+        width: 38%;
+    }
+  }
+
+/* mobile screen */
+  @media only screen and (max-width: 500px) {
+    .Crafted-two {
+        width: 100%;
+        /* border: 1px solid #000; */
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 50px;
+    }
+    .chair_one {
+        width: 95%;
+        /* height: 400px; */
+        /* border: 1px solid #000; */
+        margin-bottom: 50px;
+        text-align: center;
+    }
+   
+    .chair_two{
+        width: 95%;
+    }
+    .chair_three{
+        width: 95%;
+    }
+  }
