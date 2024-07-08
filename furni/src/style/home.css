@@ -242,6 +242,7 @@
   color: rgb(78, 77, 77);
 }
 .Shipping_main {
+  width: 100%;
   margin-top: 50px;
   display: flex;
   justify-content: space-around;
@@ -483,6 +484,7 @@
   margin-top: 60px;
   display: flex;
   justify-content: space-evenly;
+  padding: 45px;
 }
 .furnitureidea-one {
   height: 410px;

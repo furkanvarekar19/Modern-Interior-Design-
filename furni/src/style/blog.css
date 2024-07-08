@@ -1,0 +1,53 @@
+.secondlcs {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 55px;
+  }
+
+  
+
+  /* responsive part */
+          
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    /* .secondlcs {
+        margin-top: 60px;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+      } */
+      .abcd1{
+         width: 45%;
+      }
+      .abcd2{
+        width: 45%;
+      }
+    .abcd3{
+       width: 45%;
+    }
+  
+}
+
+/* mobile screen */
+@media only screen and (max-width: 500px) {
+     .secondlcs {
+        margin-top: 60px;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+      }
+      .abcd1{
+        width: 85%;
+     }
+     .abcd2{
+       width: 85%;
+     }
+   .abcd3{
+      width: 85%;
+   }
+ 
+
+}

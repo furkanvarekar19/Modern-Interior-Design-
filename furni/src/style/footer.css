@@ -167,6 +167,7 @@
 
 /* mobile screen */
 @media only screen and (max-width: 500px) {
+
   .footer_img img {
     height: 260px;
   }
@@ -185,29 +186,12 @@
     background-color: #377d61;
   }
   .furni_main {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    text-align: center;
+    display: none;
   }
-  .para {
-    width: 90%;
-  }
-  .about_us {
-    width: 90%;
-  }
-  .live_chat {
-    width: 90%;
-  }
-  .jobs {
-    width: 90%;
-  }
-  .nordic_chair {
-    width: 90%;
-  }
+
   #icons i {
     margin-left: 12px;
+    margin-top: 20px;
     /* border: 1px solid #000; */
     background-color: #dce5e4;
     padding: 10px 12px;
