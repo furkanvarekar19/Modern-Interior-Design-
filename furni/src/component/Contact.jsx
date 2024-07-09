@@ -23,6 +23,7 @@ function Contact() {
         </div>
 
         <div className='contact-form_main'>
+
             <div className="Raymouthaddress_main">
               <div className="yourdomain1">
                 <div className="locations_logo">
@@ -52,10 +53,34 @@ function Contact() {
               </div>
 
             </div>
+           
+            <form>
+              <div className='fir_las_main'>
+              <div className='first'>
+                <label>First name</label> <br />
+                <input type="text" />
+              </div>
+              <div className='last'>
+                <label>Last  name</label> <br />
+                <input type="text" />
+              </div>
+              </div>
 
-            <div>
-              <h1>hleeo</h1>
-            </div>
+              <div className='emailaddress'>
+              <label>Email address</label> <br />
+                <input type="email" />
+              </div>
+
+              <div className="Message">
+                <label >Message</label> <br />
+                <textarea name=""></textarea>
+              </div>
+
+              <div className="sendmsg">
+                <button>Send Message</button>
+              </div>
+            </form>
+
         </div>
         
     </div>

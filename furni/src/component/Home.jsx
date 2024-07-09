@@ -2,9 +2,6 @@ import React from 'react'
 import '../style/home.css'
 import '../style/shopcom.css'
 
-import CarouselComponent from '../component/CarouselComponent '
-
-
 
 function Home() {
   return (
@@ -167,9 +164,6 @@ function Home() {
 
           </div>
 
-         <div>
-         <CarouselComponent/>
-         </div>
 
      <div className='ViewAllpost'>
       <h2>Recent Blog</h2>
