@@ -18,14 +18,13 @@
 }
 .unorder ul{
     display: flex;
-    gap: 33px;
+    /* gap: 33px; */
 
 }
 
 a{
     text-decoration: none;
     color: #bcbbbb;
-    /* padding-right: 35px; */
     font-size: 18px;
     /* /* position: relative; */
     transition: all 0.5s;  
@@ -37,7 +36,7 @@ a:hover{
 
 li{
     list-style-type: none;
-    padding-right: 25px;  
+    padding-right: 35px;  
 }
 
 .logo{
@@ -53,7 +52,7 @@ li{
     /* margin-right: 25px; */
     /* border: 1px solid #000; */
     width: 110px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
 .shop .fa-user{
     color: #fff;
@@ -68,3 +67,6 @@ li{
     margin-left: 28px;
    
 }
+
+
+  

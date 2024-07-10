@@ -1,10 +1,11 @@
-import React from 'react'
+
 import '../style/header.css';
 import { useNavigate } from 'react-router-dom'
 
 
 function Header() {
    const navigate = useNavigate();
+  
 
 
   return (
@@ -29,6 +30,7 @@ function Header() {
              <i className="fa-solid fa-cart-shopping"></i>
              </div>
         </div>
+        
        </nav>
 
     </div>
