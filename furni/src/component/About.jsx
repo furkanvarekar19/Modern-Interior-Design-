@@ -3,7 +3,6 @@ import '../style/home.css'
 import '../style/about.css'
 
 
-
 function About() {
   return (
     <div className='about_main'>
@@ -117,4 +116,4 @@ function About() {
   )
 }
 
-export default About
+export default About;
